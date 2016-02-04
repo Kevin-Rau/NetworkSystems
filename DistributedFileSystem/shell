@@ -1,0 +1,25 @@
+#!/bin/sh
+echo "cleaning files"
+make clean
+echo "making files"
+make
+
+echo "terminating old processes"
+pkill -f dfs
+pkill -f dfc
+#uncomment these for full use of servers 1- 4
+
+# read -r -p "Start Servers? [y/N] " response
+# if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]
+# then
+    # ./dfs "/DFS1" "10001" &
+    # ./dfs "/DFS2" "10002" &
+    # ./dfs "/DFS3" "10003" &
+    # ./dfs "/DFS4" "10004" &
+    # echo "done..."
+# else
+    # echo "done..."
+# fi
+
+./dfs "/DFS1" "10001"
+#./dfs "/DFS2" "10002" 
