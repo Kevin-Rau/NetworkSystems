@@ -1,6 +1,5 @@
 web server
-Code heavily aided with the help from tinyhttpd-0.1.0 && https://github.com/zhued  
-
+Code heavily aided with the help from tinyhttpd-0.1.0
 Make and Run: 
 	make clean
 	make
