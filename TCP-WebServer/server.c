@@ -1,7 +1,4 @@
-//Kevin's WebServer
-//A LOT of help from Zhued repo and answers online
-//disclaimer** first actual exposure to making a webserver, little to no experience
-//understood concepts well and got it working with some own code that made more sense to me.
+
 
 
 #include <stdio.h>
